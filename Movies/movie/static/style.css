@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 800px;  /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 4 columns */
+    grid-gap: 15px;  /* Adjust gap as needed */
+  }
+  
+  .movie-item {
+    text-align: center;
+  }
+  
+  .movie-info {
+    margin-top: 10px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  img {
+    width: 100%;
+    height: 200px;  /* Adjust height as needed */
+    object-fit: cover;  /* Resize image to fit container */
+  }
+  
